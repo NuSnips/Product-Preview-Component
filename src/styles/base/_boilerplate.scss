@@ -1,0 +1,11 @@
+@use "variables" as *;
+@use "../utils/functions" as *;
+#app{
+  font-family: sans-serif;
+  background: $cream;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: rem(20);
+}

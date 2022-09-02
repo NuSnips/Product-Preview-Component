@@ -1,0 +1,25 @@
+@use "variables" as *;
+@use "../utils/functions" as *;
+.button{
+  background: $very-dark-blue;
+  color: $white;
+  font-size: rem(18);
+  border:none;
+  height: rem(60);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: rem(10);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+  i{
+    padding-right: rem(10);
+  }
+  &:hover,
+  &:active{
+    background: $very-dark-blue;
+
+
+  }
+}
